@@ -9,6 +9,7 @@ import { GithubIcon } from "@/components/icons";
 import DefaultLayout from "@/layouts/default";
 import { Card, CardBody } from "@nextui-org/react";
 import Image from "next/image";
+import { Chip } from "@nextui-org/chip"
 
 export default function IndexPage() {
 	return (
@@ -21,7 +22,58 @@ export default function IndexPage() {
 								<Image alt="CoopTing profile picture" src="/CoopTing.png" width={200} height={200} />
 							</div>
 							<div className="flex justify-center pt-2">
-
+								<h2 className="text-3xl font-bold">Dev Boy</h2>
+							</div>
+							<div className="flex justify-center m-4 gap-4">
+								<Chip
+									variant="shadow"
+									color="primary"
+									size="sm"
+								>
+									Next.js 13
+								</Chip>
+								<Chip
+									variant="shadow"
+									color="primary"
+									size="sm"
+								>
+									NextUI
+								</Chip>
+								<Chip
+									variant="shadow"
+									color="primary"
+									size="sm"
+								>
+									YouTuber
+								</Chip>
+							</div>
+							<div className="flex justify-center max-w-sm">
+								<p className="text-lg text-center font-semibold">
+									I build websites and make smoothies. I also make music in my free time!
+								</p>
+							</div>
+							<div className="flex flex-col justify-center gap-4 pt-4">
+								<a href="https://youtube.com/coopercodes" target="_blank">
+									<Card className="w-full" isHoverable>
+										<CardBody className="p-3">
+											<h3 className="self-center text-lg">YouTube</h3>
+										</CardBody>
+									</Card>
+								</a>
+								<a href="https://github.com/coopercodes" target="_blank">
+									<Card className="w-full" isHoverable>
+										<CardBody className="p-3">
+											<h3 className="self-center text-lg">GitHub</h3>
+										</CardBody>
+									</Card>
+								</a>
+								<a href="https://thecodeletter.com" target="_blank">
+									<Card className="w-full" isHoverable>
+										<CardBody className="p-3">
+											<h3 className="self-center text-lg">The Codeletter</h3>
+										</CardBody>
+									</Card>
+								</a>
 							</div>
 						</div>
 					</CardBody>
