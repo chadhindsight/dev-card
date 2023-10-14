@@ -20,6 +20,9 @@ export default function IndexPage() {
 							<div className="flex justify-center">
 								<Image alt="CoopTing profile picture" src="/CoopTing.png" width={200} height={200} />
 							</div>
+							<div className="flex justify-center pt-2">
+
+							</div>
 						</div>
 					</CardBody>
 				</Card>
