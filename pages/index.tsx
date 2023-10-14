@@ -53,14 +53,14 @@ export default function IndexPage() {
 								</p>
 							</div>
 							<div className="flex flex-col justify-center gap-4 pt-4">
-								<a href="https://youtube.com/coopercodes" target="_blank">
+								<a href="https://www.youtube.com/channel/UCPyZ_rtuhtTMv_e3XPgQR3w" target="_blank">
 									<Card className="w-full" isHoverable>
 										<CardBody className="p-3">
 											<h3 className="self-center text-lg">YouTube</h3>
 										</CardBody>
 									</Card>
 								</a>
-								<a href="https://github.com/coopercodes" target="_blank">
+								<a href="https://github.com/chadhindsight" target="_blank">
 									<Card className="w-full" isHoverable>
 										<CardBody className="p-3">
 											<h3 className="self-center text-lg">GitHub</h3>
